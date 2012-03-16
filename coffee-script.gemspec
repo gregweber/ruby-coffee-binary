@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
-  s.name      = 'coffee-script'
-  s.version   = '2.2.0'
-  s.date      = '2010-03-11'
+  s.name      = 'ruby-coffee-binary'
+  s.version   = '0.0.1'
+  s.date      = '2012-03-16'
 
-  s.homepage    = "http://github.com/josh/ruby-coffee-script"
+  s.homepage    = "http://github.com/gregweber/ruby-coffee-binary"
   s.summary     = "Ruby CoffeeScript Compiler"
   s.description = <<-EOS
     Ruby CoffeeScript is a bridge to the JS CoffeeScript compiler.
@@ -16,9 +16,6 @@ Gem::Specification.new do |s|
     'README.md'
   ]
 
-  s.add_dependency 'coffee-script-source'
-  s.add_dependency 'execjs'
-
-  s.authors = ['Jeremy Ashkenas', 'Joshua Peek', 'Sam Stephenson']
-  s.email   = 'josh@joshpeek.com'
+  s.authors = ['Greg Weber']
+  s.email   = 'greg@gregweber.info'
 end
